@@ -1,0 +1,42 @@
+body{
+    background: black;
+    color: white;
+    font-family: serif;
+    margin: 4%;
+}
+.box{
+   border: 1px solid white;
+margin: 5px;
+padding-top: 5px;
+}
+.col-sm-3 {
+    float: left;
+    width: 24%;
+  }
+  
+hr{
+    border-width: 4px;
+  background: white;
+}
+span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0;
+}
+p{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 20px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .col-sm-3 {
+      width: 100%;
+    }
+  }
