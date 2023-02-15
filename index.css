@@ -6,23 +6,25 @@ body{
 }
 .box{
    border: 1px solid white;
-margin: 5px;
+margin: 10px;
 padding-top: 5px;
 }
 .col-sm-3 {
     float: left;
-    width: 24%;
+    width: 23.3%;
   }
   
 hr{
     border-width: 4px;
   background: white;
 }
+h1{
+    line-height: 0.9;
+}
 span{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 0;
 }
 p{
     font-style: normal;
@@ -37,6 +39,6 @@ img{
 
 @media screen and (max-width: 600px) {
     .col-sm-3 {
-      width: 100%;
+      width: 95%;
     }
   }
